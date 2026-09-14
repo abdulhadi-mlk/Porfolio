@@ -24,16 +24,16 @@ const infoCards = [
     color: '#6366f1',
   },
   {
-    icon: '🤖',
-    title: 'AI / Machine Learning',
-    desc: 'LLMs, RAG systems, embeddings & ML pipelines',
-    color: '#3b82f6',
-  },
-  {
     icon: '🌐',
     title: 'Full-Stack Dev',
     desc: 'MERN stack, REST APIs & scalable back-ends',
     color: '#06b6d4',
+  },
+  {
+    icon: '🤖',
+    title: 'AI / Machine Learning',
+    desc: 'LLMs, RAG systems, embeddings & ML pipelines',
+    color: '#3b82f6',
   },
   {
     icon: '📊',
