@@ -30,17 +30,18 @@ const infoCards = [
     color: '#06b6d4',
   },
   {
-    icon: '🤖',
-    title: 'AI / Machine Learning',
-    desc: 'LLMs, RAG systems, embeddings & ML pipelines',
-    color: '#3b82f6',
-  },
-  {
     icon: '📊',
     title: 'Data Science',
     desc: 'Pandas, NumPy, Scikit-learn & data analysis',
     color: '#8b5cf6',
   },
+  {
+    icon: '🤖',
+    title: 'AI / Machine Learning',
+    desc: 'LLMs, RAG systems, embeddings & ML pipelines',
+    color: '#3b82f6',
+  },
+
 ];
 
 const stats = [
