@@ -1,0 +1,10 @@
+{
+  "description": "Showcase your skills and projects with a personalized portfolio that highlights your work, making it easy for potential clients and employers to connect.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
