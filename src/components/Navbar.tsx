@@ -147,9 +147,9 @@ export default function Navbar() {
             <LinkedInIcon />
           </a>
           <a
-              href="/Abdul-Hadi-Resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+            href="/Abdul-Hadi-Resume.pdf"
+            download="Abdul-Hadi-Resume.pdf"
+            aria-label="Download resume"
             style={{
               padding: '8px 20px',
               borderRadius: 8,
