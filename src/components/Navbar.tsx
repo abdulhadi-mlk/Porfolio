@@ -147,7 +147,7 @@ export default function Navbar() {
             <LinkedInIcon />
           </a>
           <a
-            href="Abdul-Hadi-Resume.pdf"
+            href="/Abdul-Hadi-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Open resume"
