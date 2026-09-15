@@ -52,19 +52,21 @@ export default function Contact() {
         throw new Error('EmailJS environment variables are missing.');
       }
 
+      const templateParams = {
+        name: form.name.trim(),
+        email: form.email.trim(),
+        subject: form.subject.trim(),
+        message: form.message.trim(),
+        phone: '',
+        from_name: form.name.trim(),
+        from_email: form.email.trim(),
+        reply_to: form.email.trim(),
+      };
+
       await emailjs.send(
         serviceId,
         templateId,
-        {
-          name: form.name,
-          email: form.email,
-          subject: form.subject,
-          message: form.message,
-          phone: '',
-          from_name: form.name,
-          from_email: form.email,
-          reply_to: form.email,
-        },
+        templateParams,
         {
           publicKey,
         }

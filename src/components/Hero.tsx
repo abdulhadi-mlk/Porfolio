@@ -348,7 +348,9 @@ export default function Hero() {
               View My Projects
             </button>
             <a
-              href="#"
+              href="/Abdul-Hadi-Resume.pdf"
+              download="Abdul-Hadi-Resume.pdf"
+              aria-label="Download resume"
               style={{
                 padding: '13px 28px',
                 borderRadius: 10,
