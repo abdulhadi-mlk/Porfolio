@@ -148,8 +148,9 @@ export default function Navbar() {
           </a>
           <a
             href="/Abdul-Hadi-Resume.pdf"
-            download="Abdul-Hadi-Resume.pdf"
-            aria-label="Download resume"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open resume"
             style={{
               padding: '8px 20px',
               borderRadius: 8,
@@ -163,8 +164,8 @@ export default function Navbar() {
               display: 'flex',
               alignItems: 'center',
               gap: 6,
-              transition: 'opacity 0.2s, transform 0.2s',
             }}
+          
             onMouseEnter={(e) => {
               (e.currentTarget as HTMLElement).style.opacity = '0.88';
               (e.currentTarget as HTMLElement).style.transform = 'translateY(-1px)';
